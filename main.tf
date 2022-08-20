@@ -12,10 +12,10 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "learn_cloud"  
+    organization = "learn_cloud"
 
     workspaces {
-      name = "learn_cloud"  
+      name = "learn_cloud"
     }
   }
 }
